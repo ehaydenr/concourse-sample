@@ -12,4 +12,4 @@ outputs:
 - name: data
 
 run:
-  path: resource-sample/get-time/get-time.sh
+  path: resource-sample/get-data/get-data.sh
