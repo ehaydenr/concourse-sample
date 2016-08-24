@@ -9,8 +9,5 @@ inputs:
 - name: resource-sample
 - name: ehaydenr-analysis
 
-outputs:
-- name: ehaydenr-analysis
-
 run:
   path: resource-sample/get-time/get-time.sh
