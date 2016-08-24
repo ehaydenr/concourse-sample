@@ -8,4 +8,4 @@ echo '\begin{document}' >> report/report.tex
 cat report/report.txt >> report/report.tex
 echo '\end{document}'
 
-pdflatex report/report.tex -output-directory report
+pdflatex -output-directory report report/report.tex
