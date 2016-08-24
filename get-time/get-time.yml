@@ -9,6 +9,6 @@ inputs:
 - name: resource-sample
 
 run:
-  path: echo
-  args: [hello world]
+  path: ls
+  args: ["-al"]
   #path: resource-sample/get-time/get-time.sh
