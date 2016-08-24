@@ -10,5 +10,5 @@ inputs:
 
 run:
   path: ls
-  args: ["-al"]
+  args: ["-alR"]
   #path: resource-sample/get-time/get-time.sh
