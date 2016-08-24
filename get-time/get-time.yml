@@ -7,7 +7,6 @@ image_resource:
 
 inputs:
 - name: resource-sample
-- name: resource-analysis
 
 outputs:
 - name: time
