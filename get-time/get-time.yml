@@ -7,7 +7,7 @@ image_resource:
 
 inputs:
 - name: resource-sample
-- name: ehaydenr-analysis
+- name: resource-analysis
 
 run:
   path: resource-sample/get-time/get-time.sh
