@@ -6,9 +6,9 @@ resources:
     uri: https://github.com/ehaydenr/concourse-sample.git
 
 jobs:
-- name: job-hello-world
+- name: get-time
   public: true
   plan:
   - get: resource-sample
-  - task: hello-world
+  - task: get-time
     file: resource-sample/get-time/get-time.yml
