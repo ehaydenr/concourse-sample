@@ -1,4 +1,5 @@
 #!/bin/bash
 ls -al
-apt-get install netcat
+apt-get update -y
+apt-get install -y netcat
 nc time.nist.gov 13
