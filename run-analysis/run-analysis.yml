@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: ubuntu}
+
+inputs:
+- name: resource-sample
+- name: resource-analysis
+
+outputs:
+- name: analysis
+
+run:
+  path: resource-sample/run-analysis/run-analysis.sh
