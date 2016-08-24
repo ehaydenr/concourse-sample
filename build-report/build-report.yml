@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: tianon/latex}
+
+inputs:
+- name: resource-sample
+- name: resource-analysis
+
+outputs:
+- name: report
+
+run:
+  path: resource-sample/build-report/build-report.sh

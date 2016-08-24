@@ -1,4 +1,4 @@
 #!/bin/bash
 ls -al
-cp time/time.txt analysis/analysis.txt
+cp data/data.txt analysis/analysis.txt
 echo $'analyzed!\n' >> analysis/analysis.txt

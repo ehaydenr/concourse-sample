@@ -1,4 +1,4 @@
 #!/bin/bash
 ls -al
-date > time/time.txt
+date > data/data.txt
 ls -al

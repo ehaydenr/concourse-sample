@@ -9,7 +9,7 @@ inputs:
 - name: resource-sample
 
 outputs:
-- name: time
+- name: data
 
 run:
   path: resource-sample/get-time/get-time.sh
