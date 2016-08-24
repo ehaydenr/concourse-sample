@@ -9,5 +9,8 @@ inputs:
 - name: resource-sample
 - name: resource-analysis
 
+outputs:
+- name: time.txt
+
 run:
   path: resource-sample/get-time/get-time.sh
