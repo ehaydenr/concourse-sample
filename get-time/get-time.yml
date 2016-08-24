@@ -9,4 +9,6 @@ inputs:
 - name: resource-sample
 
 run:
-  path: resource-sample/get-time/get-time.sh
+  path: echo
+  args: [hello world]
+  #path: resource-sample/get-time/get-time.sh
